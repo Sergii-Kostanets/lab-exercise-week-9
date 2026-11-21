@@ -16,13 +16,14 @@
 
 ### Puzzles: my predictions (before opening any page)
 
-- **Puzzle 1:**
-- **Puzzle 2:**
-- **Puzzle 3:**
-- **Puzzle 4:**
-- **Puzzle 5:**
-- **Puzzle 6:**
+- **Puzzle 1:** Alpha largest, Gamma smallest, still h2
+- **Puzzle 2:** Box B has centered text, container does not center text of Box A
+- **Puzzle 3:** Box B margin top is 1 rem (16 px), Box C margin top is 3 rem (48 px), Box D is the tallest as it has margin top 1 rem and also paddings everywhere 1.5 rem. Box D larger then Box B by 3 rem (48 px).
+- **Puzzle 4:** container and container-fluid have same width ar 400 px. At 800 px contaoner 720 px, container fluid 800 px. At 1400 container has 1320 px, container fluid 100% (1400px).
+- **Puzzle 5:** At 400 px 1 image is 384 px, second is 480 px. Second does. At 100 first image still be 480 px. 
+- **Puzzle 6:** First link looks like a button. Second looks like text because doesn't have a color and third looks like a link because does not have btn class.
 - **For each wrong prediction: what the page showed, and why:**
+- **Puzzle 5:** At 400 px 1st image is 376 px because .container has paddings everywhere 12 px, not 8 as I thought. 
 
 ### Tickets: what was wrong, and what I changed
 
@@ -32,6 +33,8 @@
 - **Ticket 4:**
 
 ### Validator results
+
+Document checking completed. No errors or warnings to show.
 
 ---
 
