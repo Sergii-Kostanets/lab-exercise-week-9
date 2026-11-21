@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Student name: write your name here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+      integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+      crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="container py-3">
+      <h1>Ask the shop</h1>
+      <form id="enquiry-form" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="full-name" class="form-label">Name</label>
+          <input type="text" id="full-name" name="fullName" class="form-control" required>
+          <div class="invalid-feedback">Enter your name.</div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+          <div class="invalid-feedback">Enter an email address.</div>
+        </div>
+        <div class="mb-3">
+          <label for="topic" class="form-label">Topic</label>
+          <select id="topic" name="topic" class="form-select" required>
+            <option value="">Choose a topic</option>
+            <option value="plants">Plants</option>
+            <option value="delivery">Delivery</option>
+          </select>
+          <div class="invalid-feedback">Choose a topic.</div>
+        </div>
+        <button type="submit" class="btn btn-primary brand-button">Check message</button>
+      </form>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+      crossorigin="anonymous"></script>
+    <script>
+      const enquiryForm = document.querySelector('.needs-validation');
+      enquiryForm.addEventListener('submit', (event) => {
+        event.preventDefault(); // Demo only: no server to receive it.
+        enquiryForm.classList.add('was-validated');
+        if (!enquiryForm.checkValidity()) {
+          enquiryForm.querySelector(':invalid').focus();
+        }
+      });
+    </script>
+  </body>
+</html>
