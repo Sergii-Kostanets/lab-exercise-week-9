@@ -101,10 +101,10 @@ all correct
 
 ### Tickets: what was wrong, and what I changed
 
-- **Ticket 1:**
-- **Ticket 2:**
-- **Ticket 3:**
-- **Ticket 4:**
+- **Ticket 1:** add # in data-bs-target="shop-nav"
+- **Ticket 2:** wrap h3, p, and 1 indo div with class card-body
+- **Ticket 3:** add class table to tag table
+- **Ticket 4:** add class="table-responsive" to table parent div
 
 ### Validator results
 
