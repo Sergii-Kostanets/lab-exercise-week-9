@@ -27,10 +27,10 @@
 
 ### Tickets: what was wrong, and what I changed
 
-- **Ticket 1:**
-- **Ticket 2:**
-- **Ticket 3:**
-- **Ticket 4:**
+- **Ticket 1:** remove dot at class=".container"
+- **Ticket 2:** amend text-centre to text-center
+- **Ticket 3:** replace mt3 with mt-3
+- **Ticket 4:** take integriti token from console error and replace it in the link
 
 ### Validator results
 
@@ -42,10 +42,10 @@ Document checking completed. No errors or warnings to show.
 
 ### grid-tiles.html
 
-- **Why the third tile moved at step 3:**
-- **What col-auto did to the middle tile:**
-- **What offset-md-2 did, and why the notice is centred:**
-- **What justify-content-center and align-items-center did:**
+- **Why the third tile moved at step 3:** A row has 12 units. The columns asked for 4 + 4 + 6 = 14 units. After the first two tiles only 4 units were left, and the third tile needs 6, so it did not fit and moved down to the next line. There it takes half the width, on the left.
+- **What col-auto did to the middle tile:** `col-auto` made the middle tile only as wide as its content (the word and its padding). The two `col` tiles shared the rest of the space equally, so they became wider and the middle one became narrow.
+- **What offset-md-2 did, and why the notice is centred:** From 768 pixels up, `offset-md-2` adds 2 empty units before the column. The column takes 8 units, so 2 + 8 = 10 and 2 units stay free on the right. There are 2 units on each side, so the notice sits in the middle. Below 768 pixels neither class applies, and the notice is full width.
+- **What justify-content-center and align-items-center did:** `justify-content-center` works along the line: the two `col-md-5` columns take 10 units, and it splits the 2 free units into one on each side, so the pair sits in the middle. `align-items-center` works up and down: normally the columns stretch to the same height, but with this class each keeps its own height and the short tile sits halfway down beside the tall one. At 400 pixels `col-md-5` does not apply, so the columns are full width and stack.
 
 ### shop-grid.html
 
