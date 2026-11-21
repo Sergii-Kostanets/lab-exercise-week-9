@@ -54,13 +54,15 @@ Document checking completed. No errors or warnings to show.
 
 ### Puzzles: my predictions (before opening any page)
 
-- **Puzzle 1:**
-- **Puzzle 2:**
-- **Puzzle 3:**
-- **Puzzle 4:**
-- **Puzzle 5:**
-- **Puzzle 6:**
+- **Puzzle 1:** 400 - 3, 800 - 3, 1200 - 3
+- **Puzzle 2:** 400 - 2/1, 800 - 2/1, 1200 - 2/1, Three is alone
+- **Puzzle 3:** 400 - 1, 800 - 3, 1200 - 3
+- **Puzzle 4:** 400 - 1, 800 - 2, 1200 - 4
+- **Puzzle 5:** 400 - 2 tiles on 4 lines, 800 - 4 tiles on 2 lines, 1200 - 4 tiles on 2 lines
+- **Puzzle 6:** 400 - One takes the whole first line, Two takes the whole second line; 800 - One sits in the middle of the first line taking 6 grids, Two sits in the right of the second line taking 4 grids.
 - **For each wrong prediction: what the page showed, and why:**
+
+All correct
 
 ### Tickets: what was wrong, and what I changed
 
