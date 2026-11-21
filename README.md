@@ -66,10 +66,10 @@ All correct
 
 ### Tickets: what was wrong, and what I changed
 
-- **Ticket 1:**
-- **Ticket 2:**
-- **Ticket 3:**
-- **Ticket 4:**
+- **Ticket 1:** wrap column divs in a row div
+- **Ticket 2:** fix col-md-5 to col-md-4
+- **Ticket 3:** replace row-col-1 row-col-md-3 with row-cols-1 row-cols-md-3
+- **Ticket 4:** change offset-md-2 to offset-md-1
 
 ### Validator results
 
