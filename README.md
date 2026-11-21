@@ -108,26 +108,29 @@ all correct
 
 ### Validator results
 
+Document checking completed. No errors or warnings to show.
+
 ---
 
 ## Exercise 4 - Forms, utilities and your own CSS
 
 ### enquiry.html
 
-- **HTML, Bootstrap's feedback classes and JavaScript: what each one does for the validation:**
-- **What the first button rule did, and the name of the rule that won:**
-- **What the .brand-button rule does, and why a change in the Styles panel goes away on reload:**
-- **Why a check in the browser is not enough:**
+- **HTML, Bootstrap's feedback classes and JavaScript: what each one does for the validation:** HTML sets the rules: `required`, `type="email"` and `minlength="10"` decide what counts as valid. Bootstrap's classes show the result: `invalid-feedback` and `valid-feedback` are hidden messages, and the red or green borders and messages appear only when the form has the class `was-validated`. JavaScript connects the two: `novalidate` turns off the browser's own pop-ups, and the script stops the form being sent, adds `was-validated` and moves the cursor to the first wrong field.
+- **What the first button rule did, and the name of the rule that won:** It did nothing; the button stayed blue. In the Styles panel my `background-color` was crossed out. The rule that won was Bootstrap's `.btn`, because a class selector is more specific than an element selector like `button`, even though my file loads later.
+- **What the .brand-button rule does, and why a change in the Styles panel goes away on reload:** It does not set the colour directly. It changes Bootstrap's variables (`--bs-btn-bg`, `--bs-btn-hover-bg` and the others) on my own class, so Bootstrap's `.btn` rule uses my green for the normal, hover, pressed and focus states. A change in the Styles panel only changes the page in the browser's memory, not the file, so a reload loads the file again and the change is lost. To keep a fix, I must write it in `styles.css`.
+- **Why a check in the browser is not enough:** Anyone can turn off JavaScript, remove `required` in the developer tools or send data to the server without using the form. So the browser check only helps honest visitors fix mistakes. The program that receives the form must check every field again on the server and reject anything that is missing or wrong.
 
 ### Puzzles: my predictions (before opening any page)
 
-- **Puzzle 1:**
-- **Puzzle 2:**
-- **Puzzle 3:**
-- **Puzzle 4:**
-- **Puzzle 5:**
-- **Puzzle 6:**
+- **Puzzle 1:** on one line, left and raght with space between, thay alighned vertically in the center
+- **Puzzle 2:** 400 - Box C, 800 - Box C, Box A
+- **Puzzle 3:** focus on name, then on email as it's incorect, then all correct
+- **Puzzle 4:** both blue
+- **Puzzle 5:** one - blue, Two - green, no color change in hover
+- **Puzzle 6:** inner li's have bullets
 - **For each wrong prediction: what the page showed, and why:**
+- **Puzzle 5:** Two - blue on hover, as we didnt overwrite this
 
 ### Tickets: what was wrong, and what I changed
 
