@@ -89,13 +89,15 @@ Document checking completed. No errors or warnings to show.
 
 ### Puzzles: my predictions (before opening any page)
 
-- **Puzzle 1:**
-- **Puzzle 2:**
-- **Puzzle 3:**
-- **Puzzle 4:**
-- **Puzzle 5:**
-- **Puzzle 6:**
+- **Puzzle 1:** 400 - menu, 800 and 1200 - links
+- **Puzzle 2:** C D B A, B and D same size, D not filled
+- **Puzzle 3:** 1st row has equal cards, 2nd row has not
+- **Puzzle 4:** rounded corners, oval, with borders
+- **Puzzle 5:** first - no lines, last has stripes, in first two - nothing, in last color changed
+- **Puzzle 6:** 1st scrolls inside its box, second makes the whole page scroll
 - **For each wrong prediction: what the page showed, and why:**
+
+all correct
 
 ### Tickets: what was wrong, and what I changed
 
