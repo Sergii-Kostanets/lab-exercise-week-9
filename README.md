@@ -49,8 +49,8 @@ Document checking completed. No errors or warnings to show.
 
 ### shop-grid.html
 
-- **Why six products belong in one row:**
-- **What row-cols-lg-3 counts:**
+- **Why six products belong in one row:** The `row` element is not one line on the screen; it is a container that wraps its columns onto as many lines as they need. With all six products in one row, the `row-cols` classes decide how many sit on each line at each width: one on a phone, two from 768 pixels, three from 992 pixels. If I wrote two rows of three, the lines would be fixed in groups of three. At 800 pixels that would give 2, 1, 2, 1, with a gap after each third product, instead of 2, 2, 2. The products also stay in one list, in the same order, at every width.
+- **What row-cols-lg-3 counts:** It counts items across a line, not units out of twelve. From 992 pixels up it puts three columns on each line, so each one gets a third of the width. The class works out the width for me; I do not give each column `col-lg-4`.
 
 ### Puzzles: my predictions (before opening any page)
 
