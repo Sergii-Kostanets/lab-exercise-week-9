@@ -8,11 +8,11 @@
 
 ### seaview.html
 
-- **What the page looked like with and without the Bootstrap link:**
-- **What container did, and what container-fluid did at 1400 pixels:**
-- **What display-4, text-center, lead and fw-bold changed:**
-- **Margin and padding, in my own words:**
-- **Why container takes no dot:**
+- **What the page looked like with and without the Bootstrap link:** Without the link the browser used its own default styles: a serif font (Times New Roman), an 8px margin around the body and plain headings. With the link Bootstrap's Reboot styles took over: a system sans-serif font, no body margin, adjusted heading sizes and line height. The page looked cleaner even before I added any classes.
+- **What container did, and what container-fluid did at 1400 pixels:** At 1400 pixels `container` limited the content to 1320px wide and centred it, so there was empty space on both sides. Its width changes in steps at each breakpoint. `container-fluid` stretched the content across the full width of the window at every size. Both add 12px of padding on the left and right.
+- **What display-4, text-center, lead and fw-bold changed:** `display-4` made the h1 much larger (3.5rem on a wide screen) and lighter (font weight 300). `text-center` centred the h1. `lead` made the header paragraph larger (1.25rem) and lighter, so it reads as an introduction. `fw-bold` made the h2 bold (font weight 700 instead of Bootstrap's default 500).
+- **Margin and padding, in my own words:** Margin is space outside an element's border; it pushes other elements away and is always transparent. Padding is space inside the border, between the edge and the content, and it takes the element's background colour. In the class names `m` means margin, `p` means padding, `t` is top, `x` is left and right, and the number is the size: `3` is 1rem and `4` is 1.5rem. So `mt-3` adds 1rem above `main`, `p-4` adds 1.5rem inside it on every side, `px-4` adds 1.5rem inside the footer on the left and right only, and `m-0` removes the paragraph's default bottom margin.
+- **Why container takes no dot:** The dot belongs to CSS, not HTML. In a style sheet `.container` is a selector that means "every element with the class container". In the `class` attribute I only write the name of the class, so it is `class="container"`.
 
 ### Puzzles: my predictions (before opening any page)
 
