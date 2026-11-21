@@ -134,9 +134,9 @@ Document checking completed. No errors or warnings to show.
 
 ### Tickets: what was wrong, and what I changed
 
-- **Ticket 1:**
-- **Ticket 2:**
-- **Ticket 3:**
-- **Ticket 4:**
+- **Ticket 1:** fix for from e-mail to email
+- **Ticket 2:** add class="form-control" to select tag
+- **Ticket 3:** add class="needs-validation" to form tag
+- **Ticket 4:** move css link to load after bootstrap
 
 ### Validator results
