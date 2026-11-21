@@ -73,17 +73,19 @@ All correct
 
 ### Validator results
 
+Document checking completed. No errors or warnings to show.
+
 ---
 
 ## Exercise 3 - Components
 
 ### plant-home.html
 
-- **How the navigation bar changes at 400 and 1200 pixels, and what the menu button does:**
-- **What card, card-body and h-100 each do:**
-- **What happens when table is removed from the table's classes:**
-- **What table-responsive does at 400 pixels:**
-- **A, and button: when I would use each, in my own words:**
+- **How the navigation bar changes at 400 and 1200 pixels, and what the menu button does:** At 1200 the links show in the bar next to the brand. At 400 they are hidden and a menu button appears. Clicking it opens the links below the brand; clicking again closes them. Bootstrap's JavaScript does this.
+- **What card, card-body and h-100 each do:** `card` makes the box with a border and rounded corners. `card-body` puts space around the text inside the card. `h-100` makes the card as tall as its column, so all cards in a row are the same height.
+- **What happens when table is removed from the table's classes:** The Bootstrap table style goes away. The stripes, hover shade, borders and cell padding stop working, because those classes only work together with `table`.
+- **What table-responsive does at 400 pixels:** It lets the table scroll sideways inside its own box. Only the table moves; the rest of the page stays still.
+- **A, and button: when I would use each, in my own words:** I use `a` when clicking takes the visitor to another page or another place on the page. I use `button` when clicking does something on the page, like opening a menu or sending a form.
 
 ### Puzzles: my predictions (before opening any page)
 
